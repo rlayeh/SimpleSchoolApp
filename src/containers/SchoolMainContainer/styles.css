@@ -1,0 +1,8 @@
+:local(.header)>span {
+  vertical-align: middle;
+}
+
+:local(.header)>div {
+  vertical-align: middle;
+  margin-left: 20px;
+}

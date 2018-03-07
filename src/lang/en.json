@@ -1,0 +1,9 @@
+{
+  "common.add": "Add",
+  "common.save": "Save",
+  "common.cancel": "Cancel",
+  "common.name": "First name",
+  "common.surname": "Last name",
+  "components.header": "Awesome school app!",
+  "components.studentsList": "Students list"
+}

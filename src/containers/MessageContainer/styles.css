@@ -1,0 +1,15 @@
+:local(.snackBar){
+
+}
+
+:local(.snackBarSuccess){
+    & > div {
+        background-color: #64DD17!important;
+    }
+}
+
+:local(.snackBarError) {
+    & > div {
+        background-color: #F44336 !important;
+    }
+}

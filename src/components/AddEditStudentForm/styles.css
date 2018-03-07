@@ -1,0 +1,13 @@
+:local(.fields) > div {
+  display: block !important;
+  width: 100% !important;
+  margin-bottom: 20px;
+}
+
+:local(.button) {
+  margin-left: 20px;
+}
+
+:local(.buttons) {
+  text-align: right;
+}
