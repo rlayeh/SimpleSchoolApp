@@ -11,10 +11,10 @@ try {
                 sh 'npm run build'
             }
             stage('build') {
-                openshiftBuild(buildConfig: 'playground-api', showBuildLogs: 'true')
+                openshiftBuild(buildConfig: 'simpleschoolapp', showBuildLogs: 'true')
             }
             stage('deploy') {
-                openshiftDeploy(deploymentConfig: 'playground-api')
+                openshiftDeploy(deploymentConfig: 'simpleschoolapp')
             }
         }
     }
